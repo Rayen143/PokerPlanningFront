@@ -31,13 +31,19 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
+              "src/favicon.ico",
               {
                 "glob": "**/*",
-                "input": "public"
+                "input": "src/assets",
+                "output": "/assets/"
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/nucleo-icons.css",
+              "src/assets/css/nucleo-svg.css",
+              "src/assets/css/material-dashboard.css"
+
             ],
             "scripts": [],
             "server": "src/main.server.ts",
@@ -107,5 +113,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "4ff8d861-6058-4686-bb31-0b9afcb99c2e"
   }
 }
