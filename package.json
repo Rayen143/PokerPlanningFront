@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "poker-planning-frontend",
+=======
+  "name": "poker-planning-front",
+>>>>>>> 6caf25979ace09fda2b625cc85bb5fe55e0ed2c9
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +11,11 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+<<<<<<< HEAD
     "serve:ssr:PokerPlanningFrontend": "node dist/poker-planning-frontend/server/server.mjs"
+=======
+    "serve:ssr:PokerPlanningFront": "node dist/poker-planning-front/server/server.mjs"
+>>>>>>> 6caf25979ace09fda2b625cc85bb5fe55e0ed2c9
   },
   "private": true,
   "dependencies": {

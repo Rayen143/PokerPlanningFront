@@ -3,6 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
+<<<<<<< HEAD
     "PokerPlanningFrontend": {
       "projectType": "application",
       "schematics": {
@@ -16,6 +17,11 @@
           "standalone": false
         }
       },
+=======
+    "PokerPlanningFront": {
+      "projectType": "application",
+      "schematics": {},
+>>>>>>> 6caf25979ace09fda2b625cc85bb5fe55e0ed2c9
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -23,7 +29,11 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+<<<<<<< HEAD
             "outputPath": "dist/poker-planning-frontend",
+=======
+            "outputPath": "dist/poker-planning-front",
+>>>>>>> 6caf25979ace09fda2b625cc85bb5fe55e0ed2c9
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -31,6 +41,7 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
+<<<<<<< HEAD
               "src/favicon.ico",
               {
                 "glob": "**/*",
@@ -44,6 +55,15 @@
               "src/assets/css/nucleo-svg.css",
               "src/assets/css/material-dashboard.css"
 
+=======
+              {
+                "glob": "**/*",
+                "input": "public"
+              }
+            ],
+            "styles": [
+              "src/styles.css"
+>>>>>>> 6caf25979ace09fda2b625cc85bb5fe55e0ed2c9
             ],
             "scripts": [],
             "server": "src/main.server.ts",
@@ -80,10 +100,17 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
+<<<<<<< HEAD
               "buildTarget": "PokerPlanningFrontend:build:production"
             },
             "development": {
               "buildTarget": "PokerPlanningFrontend:build:development"
+=======
+              "buildTarget": "PokerPlanningFront:build:production"
+            },
+            "development": {
+              "buildTarget": "PokerPlanningFront:build:development"
+>>>>>>> 6caf25979ace09fda2b625cc85bb5fe55e0ed2c9
             }
           },
           "defaultConfiguration": "development"
@@ -115,6 +142,10 @@
     }
   },
   "cli": {
+<<<<<<< HEAD
     "analytics": "4ff8d861-6058-4686-bb31-0b9afcb99c2e"
+=======
+    "analytics": "2c8615de-d283-46e0-85d4-228d2adb01f5"
+>>>>>>> 6caf25979ace09fda2b625cc85bb5fe55e0ed2c9
   }
 }

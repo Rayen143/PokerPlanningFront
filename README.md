@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # PokerPlanningFrontend
+=======
+# PokerPlanningFront
+>>>>>>> 6caf25979ace09fda2b625cc85bb5fe55e0ed2c9
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.0.
 
